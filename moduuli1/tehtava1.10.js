@@ -12,8 +12,8 @@
 // - 2 dice, sum 7, probability is about 15-17%
 // - 3 dice, sum 15, probability is about 5%
 
-let diceEyeAmount = parseInt( prompt("Insert number of dice:"))
-let diceEyeTarget = parseInt( prompt("Insert target sum of eye numbers:"))
+let diceEyeAmount = parseInt( prompt("Insert number of dice to calculate probability:"))
+let diceEyeTarget = parseInt( prompt("Insert target sum of eye numbers of said dice:"))
 let diceEyeSideCount = 6
 let diceEyeTargetHit = 0
 for (let i=0;i<1000;i++){
